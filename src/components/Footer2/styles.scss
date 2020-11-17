@@ -1,0 +1,172 @@
+
+.footer2{
+	width: 100%;
+	height: 100%;
+	background-color:#334052;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+	padding-top: 30px;
+
+	.left{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		height: 400px;
+
+		.logoTitle{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+
+			img{
+				texco: #fff;
+			}
+
+			h1{
+				margin-left: 10px;
+			}
+		}
+
+		p{
+			max-width: 300px;
+			margin-top: 20px;
+		}
+
+		.icons{
+			display: flex;
+			flex-direction: row;
+		
+			width: 300px;
+			margin-top: 20px;
+
+			i{
+				font-size: 24px;
+				color: #fff;
+				margin-right: 30px;
+
+				&:hover{
+					color: gray;
+				}
+			}
+		}
+	}
+
+	.middle{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		height: 400px;
+
+		h2{
+			font-size: 32px;
+			margin-bottom: 42px;
+			padding: 0;
+			margin-top: 0;
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+
+			li{
+				list-style: none;
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.right{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		height: 400px;
+
+		.container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+	
+			.contactInfo{
+				width: 50%;
+				display: flex;
+				flex-direction: column;
+	
+				.box{
+					position: relative;
+					display: flex;
+					align-items: flex-start;
+					.icon{
+						min-width: 40px;
+						height: 40px;
+						background: gray;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						border-radius: 50%;
+						font-size: 22px;
+	
+						i{
+							color: #fff;
+							font-size: 16px;
+						}
+					}
+	
+					.text{
+						display: flex;
+						margin-left: 20px;
+						font-size: 16px;
+						color: #fff;
+						flex-direction: column;
+						font-weight: 300;
+	
+						h3{
+							font-weight: 500;
+							color: #00bcd4;
+							margin-bottom:0;
+							margin-top: 0;
+						}
+					}
+				}
+			}
+	
+			@media screen and(max-width:876px){
+				display: flex;
+				flex-direction: column;
+			}
+		
+		}
+
+	}
+
+	@media screen and(max-width:876px){
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: auto;
+
+		.left{
+			width: 50%;
+			height: auto;
+		}
+
+		.middle{
+			margin-top: 50px;
+			width: 50%;
+			height: auto;
+		}
+
+		.right{
+			width: 100%;
+			margin-top: 50px;
+			height: auto;
+		}
+	}
+}

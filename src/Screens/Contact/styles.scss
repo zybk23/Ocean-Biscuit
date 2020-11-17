@@ -1,0 +1,255 @@
+// Dank fonts
+@import 'https://fonts.googleapis.com/css?family=Karla';
+
+// Somewhat necessary mixin?
+@mixin capsfont($size) {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: $size;
+}
+
+// Colours!
+$rust: #CA8D6E;
+$lunar: #dedde6;
+$deep: #eceaf3;
+$white: black;
+$mud: #7D6962;
+
+// Responsive Text Stuff
+:root {
+	font-size: 13px;
+}
+@media screen and (min-width: 1000px) {
+	:root {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 1240px) {
+	:root {
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 1480px) {
+	:root {
+		font-size: 17px;
+	}
+}
+// Main Styles
+body {
+
+	.main{
+		
+		.contactArea{
+			margin: 0;
+			padding: 0;
+
+			@media screen and(max-width:876px) {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: center;
+				padding-left: 30px;
+			}
+		
+			font: {
+				family: 'Karla';
+				size: 1rem;
+				weight: 400;
+			}
+			color: $white;
+			line-height: 2em;
+		}
+	}
+	
+}
+
+// Profile Section
+.main {
+	
+	.contactArea{
+		display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-items: baseline;
+	height: 100vh;
+	background: linear-gradient(120deg, $lunar 50%, $deep 50%);
+	.header,
+	legend.header {
+		@include capsfont (1.25rem);
+		margin: 0.5em 0;
+	}
+	.bio,
+	.contact {
+		max-width: 320px;
+		margin-top: 20vh;
+
+		@media screen and(max-width:876px) {
+			margin-top: 20px;
+		}
+	}
+	.bio {
+
+		.bio_image{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+
+			.profile-img {
+				max-width: 7em;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		p{
+			color:#333
+		}
+		
+		.bio-link {
+			@include capsfont(1rem);
+			display: inline-block;
+			// floats & clears to break lines
+			float: left;
+			clear: left;
+			text-decoration: none;
+			color: $white;
+			margin-bottom: 0.25em;
+			transition: color 300ms ease-in-out;
+			i {
+				margin-left: 8px;
+			}
+			&::after {
+				display: block;
+				content: '';
+				height: 1px;
+				width: 0;
+				background: $rust;
+				transition: width 300ms ease-in-out;
+			}
+			&:hover::after {
+				width: 100%;
+			}
+			&:hover {
+				color: $rust;
+			}
+		}
+	}
+	.contact {
+		form {
+			fieldset {
+				font-size: 1rem;
+				position: relative;
+				border: none;
+				margin-bottom: 0.25em;
+				padding: 0.25em 0;
+				label {
+					font-size: 0.875rem;
+					display: block;
+					position: absolute;
+					right: 0.125em;
+					top: 1.5em;
+					color: $rust;
+				}
+			}
+			input,
+			textarea,
+			button {
+				border: 0;
+				&:focus {
+					outline: none;
+				}
+			}
+			input,
+			textarea {
+				display: block;
+				font: {
+					family: 'Karla';
+					size: 1rem;
+				}
+				padding: 0.5em 0;
+				width: 280px;
+				background: none;
+				color: $rust;
+				border-bottom: 1px solid $mud;
+				transition: border 300ms ease-in-out;
+				&:focus {
+					border-bottom: 1px solid $rust;
+				}
+				&::placeholder {
+					color: $mud;
+				}
+			}
+		}
+		button {
+			@include capsfont (1rem);
+			display: block;
+			background: $rust;
+			color: $white;
+			padding: 1em 2em;
+			box-shadow: 0 0 40px 0 rgba(5, 5, 5, 0.3);
+			&:hover {
+				animation: swell 500ms ease-in-out;
+				cursor: pointer;
+			}
+		}
+		textarea {
+			resize: none;
+		}
+	}
+	}
+	
+}
+
+// Animation stuff
+.main {
+	overflow: hidden;
+	animation: Page 600ms ease-in-out forwards;
+}
+
+.bio {
+	animation: Bio 600ms ease-in-out forwards;
+}
+
+.contact {
+	animation: Contact 600ms ease-in-out forwards;
+}
+
+// Keyframes
+@keyframes Page {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes Bio {
+	0% {
+		transform: translateX(-50vw);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes Contact {
+	0% {
+		transform: translateX(50vw);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes swell {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
