@@ -10,7 +10,6 @@ const Footer2 = () => {
 			<div className="left">
 				<div className="logoTitle">
 					<img width="100" height="100" src={Logo} alt=""/>
-					<h1>Ocean Biscuit</h1>
 				</div>
 				<p>
 				By getting benefit of experiences since 2007, Ocean biscuits got established in Turkey’s Istanbul in 2018.
@@ -28,7 +27,7 @@ const Footer2 = () => {
 				</div>
 			</div>
 		
-			<div className="middle">
+			{/* <div className="middle">
 				<h2>Product</h2>
 				<ul>
 					<li>Quality Product</li>
@@ -36,7 +35,7 @@ const Footer2 = () => {
 					<li>Safe Production</li>
 					<li>Rich Nutritional V.</li>
 				</ul>
-			</div>
+			</div> */}
 			<div className="right">
 				<div className="container">
 				<div className="contactInfo">

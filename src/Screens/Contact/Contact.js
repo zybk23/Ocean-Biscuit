@@ -13,15 +13,15 @@ const Contact = () => {
 
 				</div>
 				<p>By getting benefit of experiences since 2007, Ocean biscuits got established in Turkey’s Istanbul in 2018. Its further step is to open up to the world market with its unique taste..</p>
-				<a className="bio-link" href="https://twitter.com/alexboffey">
+				<a className="bio-link" target="_blank" href="https://twitter.com/biscuit_ocean?s=21">
 					Twitter<i class="fab fa-twitter"/>
 					</a>
-					<a className="bio-link" href="https://github.com/alexboffey">
+					<a className="bio-link" target="_blank" href="https://instagram.com/oceanbiskuvi?igshid=1k0lv5zk3f277">
 						Instagram<i class="fab fa-instagram"/>
 
 					</a>
 				<a
-					className="bio-link" href="https://codepen.io/alexboffey/">
+					className="bio-link" target="_blank" href="https://www.linkedin.com/in/muhammed-ammar-%C3%A7elenk-8061a1166/">
 						Linkedin<i class="fab fa-linkedin-in"/>
 						</a>
 			</div>

@@ -24,7 +24,9 @@ class Navigation extends React.Component {
     return (
       <nav>
         <div className="logo">
-          <img src={Logo} alt="" />
+			<a href="/">
+			<img src={Logo} alt="" />
+			</a>
         </div>
         <ul className={"nav-links"}>
           <li>
@@ -36,7 +38,7 @@ class Navigation extends React.Component {
           <li>
             <a href="/contact">Contact</a>
           </li>
-          <li>
+          {/* <li>
             <a className="withIcon" href="/contact">
               <FaMailBulk />
               <p>export@oceanbiskuvi.com</p>
@@ -47,7 +49,7 @@ class Navigation extends React.Component {
               <FaPhone />
               <p>export@oceanbiskuvi.com</p>
             </a>
-          </li>
+          </li> */}
         </ul>
         <div className={"menu"} onClick={this.ChangeNav}>
           <div className={"line-1"} />

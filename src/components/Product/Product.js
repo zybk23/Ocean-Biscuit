@@ -1,13 +1,12 @@
 import React from 'react';
 import "./styles.scss"
-import Photo from "../../Assets/Images/shoe-1.png"
 import Footer from "../../components/Footer2/Footer2"
 
 
 const products=[
 	{
 		id:1,
-		img:Photo,
+		img:require("../../Assets/Images/2.jpg"),
 		price1:"150 TL",
 		price2:"200 TL",
 		description:"Ocean cookies classic 48Gx24x6(40HC2850)",
@@ -73,38 +72,22 @@ const NewProduct = (props) => {
 	return (
 		<>
 		<div className="tahaNew">
-				<div className= "product-collection">
-				<div className= "container">
-					<div className= "product-collection-wrapper">
-						<div className= "product-col-left flex">
-							<div className= "product-col-content">
-								<button type = "button" className= "btn-dark">Shop now</button>
-							</div>
-						</div>
-						<div className= "product-col-right">
-							<div className= "product-col-r-top flex" onClick={()=>props.handleShow(1)} >
-								<div className= "product-col-content">
-									<h2 className= "sm-title2">Ocean Biscuit </h2>
-									<h2 className= "md-title">About Us </h2>
-									<p className= "text-light">By getting benefit of experiences since 2007, Ocean biscuits got established in Turkey’s Istanbul in 2018. Its further step is to open up to the world market with its unique taste. Ocean Biscuits and Confectionary Industry has recorded remarkably rapid expansion and development due to its application of modern food processing techniques in all aspects of production...</p>
-									<button type = "button" className= "btn-dark">Show More...</button>
-								</div>
-							</div>
-
-							<div className= "product-col-r-bottom">
-								{
-									about.map(item=>
-									<div className= "flex" onClick={()=>props.handleShow(item.id)} key={item.id}>
-									<div className= "product-col-content">
-										<h2 className= "md-title">{item.mdTitle}</h2>
-										<p className= "text-light">{item.dsc}</p>
-										<button type = "button" className= "btn-dark">{item.btn}</button>
-									</div>
-								</div>)
-								}
-							</div>
-						</div>
-					</div>
+			<div className="product-collection">
+				<div className="leftSide">
+					<h2 className= "sm-title2">Ocean Biscuit </h2>
+					<h2 className= "md-title">About Us </h2>
+					<p className= "text-light">By getting benefit of experiences since 2007, Ocean biscuits got established in Turkey’s Istanbul in 2018. Its further step is to open up to the world market with its unique taste. Ocean Biscuits and Confectionary Industry has recorded remarkably rapid expansion and development due to its application of modern food processing techniques in all aspects of production...</p>
+					<button onClick={()=>props.handleShow(1)} type = "button" className= "btn-dark">Show More...</button>
+				</div>
+				<div className="rightSide">
+					{
+						about.map(item=>
+						<div className= "info1" style={{backgroundColor: item.id ===2 ? "#eaa001" :"#0090ff" }}  key={item.id}>
+							<h2 className= "md-title">{item.mdTitle}</h2>
+							<p className= "text-light">{item.dsc}</p>
+							<button onClick={()=>props.handleShow(item.id)} type = "button" className= "btn-dark">{item.btn}</button>
+						</div>)
+					}
 				</div>
 			</div>
 			<div className= "products">
@@ -131,7 +114,7 @@ const NewProduct = (props) => {
 
 							<div className= "product-info">
 								
-							<a href = "#" className= "product-name">{item.description}</a>
+							<div className= "product-name">{item.description}</div>
 		
 								</div>
 								{

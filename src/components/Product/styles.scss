@@ -4,6 +4,65 @@ $green:#40c9a2;
 $light:rgba(255,255,255,.5);
 
 .tahaNew{
+	padding-top: 120px;
+
+	.product-collection{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 50vh;
+		padding:0 80px;
+		box-sizing: border-box;
+		color: #fff;
+
+		@media screen and (max-width:978px) {
+			display: flex;
+			flex-direction: column;
+			height: auto;
+			padding: 0;
+		}
+		
+		.leftSide{
+			width: 50%;
+			border-radius: 12px;
+			height: 100%;
+			background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			@media screen and (max-width:978px) {
+				width: 70%;
+			}
+		}
+		.rightSide{
+			width: 50%;
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+
+			@media screen and (max-width:978px) {
+				width: 70%;
+			}
+			
+			.info1{
+				width: 50%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				border-radius: 12px;
+				justify-content: center;
+				background-color: #333;
+			}
+		}
+	}
+
 	img {
 		width: 100%;
 		display: block;
@@ -29,7 +88,6 @@ $light:rgba(255,255,255,.5);
 	  }
 	  
 	  .md-title {
-		font-size: 2rem;
 		font-family: 'Roboto', sans-serif;
 
 		@media screen and (max-width:768px) {
@@ -62,6 +120,8 @@ $light:rgba(255,255,255,.5);
 		line-height: 1.5;
 		opacity: 0.5;
 		margin: 0.4rem 0;
+		max-width: 80%;
+		text-align: center;
 	  }
 	  
 	  /* product section */
@@ -183,6 +243,7 @@ $light:rgba(255,255,255,.5);
 		color: black;
 		display: block;
 		text-decoration: none;
+		text-align: center;
 		font-size: 1rem;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -233,10 +294,6 @@ $light:rgba(255,255,255,.5);
 	  
 	  /* product collection */
 	  
-	  .product-collection, .product-collection-wrapper {
-		padding: 3.2rem 0;
-	  }
-	  
 
 	  
 	  .flex {
@@ -256,22 +313,9 @@ $light:rgba(255,255,255,.5);
 		&:last-child {
 		  background: #0090ff;
 		}
-	  }
-	  
-	  .product-col-content {
-		text-align: center;
-		color: white;
-	  }
-	  
-	  .product-collection .text-light {
-		opacity: 1;
-		font-size: 0.8;
-		font-weight: 400;
-		line-height: 1.7;
-	  }
-	  
+	  }	  	  
 	  .btn-dark {
-		background: black;
+		background: #6A6A6A;
 		color: white;
 		outline: 0;
 		border-radius: 25px;
@@ -324,10 +368,6 @@ $light:rgba(255,255,255,.5);
 		  grid-template-columns: repeat(4, 1fr);
 		}
 	  
-		.product-collection-wrapper {
-		  display: grid;
-		  grid-template-columns: repeat(2, 1fr);
-		}
 	  
 		.flex {
 		  height: 60vh;
