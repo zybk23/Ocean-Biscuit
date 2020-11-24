@@ -123,7 +123,7 @@ const NewProduct = (props) => {
 	return (
 		<>
 		<div className="tahaNew" >
-			<div className="product-collection" style={{ background: `url(${ocean})`,backgroundRepeat: "no-repeat",backgroundSize:"cover"}}>
+			<div className="product-collection" >
 				<div className="leftSide">
 					{/* <h2 className= "sm-title2">Ocean Biscuit </h2> */}
 					<h2 className= "md-title">About Us </h2>
