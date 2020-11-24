@@ -8,7 +8,7 @@ const products=[
 		id:1,
 		img:require("../../Assets/Images/ocb1.png"),
 		
-		price2:"200 TL",
+		
 		description:"COOKIES WITH COCOA CREAM FILLING 44gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
 		discount:"New"
 	},
@@ -16,14 +16,14 @@ const products=[
 		id:2,
 		img:require("../../Assets/Images/ocb2.png"),
 		
-		price2:"200 Tl",
+		
 		description:"COOKIES WITH COCOA CREAM FILLING 44gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
 	},
 	{
 		id:3,
 		img:require("../../Assets/Images/ocb3.png"),
 		
-		price2:"200 Tl",
+		
 		description:"COOKIES WITH COCOA CREAM FILLING 44gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
 		discount:"New"
 	},
@@ -31,21 +31,21 @@ const products=[
 		id:4,
 		img:require("../../Assets/Images/ocb4.png"),
 		
-		price2:"200 Tl",
+		
 		description:"DARK WAFER WITH COCOA CREAM 60gr 24x6 2200 CARTOON IN 40 HC CONTAINER",
 	},
 	{
 		id:5,
 		img:require("../../Assets/Images/ocb5.png"),
 		
-		price2:"200 Tl",
+		
 		description:"WAFER WITH COCONAT AND VANILYA CREAM 2200 CARTOON IN 40 HC CONTAINER",
 	},
 	{
 		id:6,
 		img:require("../../Assets/Images/ocb6.png"),
 		
-		price2:"200 Tl",
+		
 		description:"BISCUITS WITH COCOA CREAM FILLING 100gr 24x6 1600 CARTOON IN 40 HC CONTAINER",
 		discount:"New"
 	},
@@ -59,7 +59,7 @@ const products=[
 		id:8,
 		img:require("../../Assets/Images/ocb8.png"),
 		
-		price2:"200 Tl",
+		
 		description:"BISCUITS WITH COCOA DROPS 62gr 24x6 1700 CARTOON IN 40 HC CONTAINER",
 		discount:"New"
 	},
@@ -67,38 +67,66 @@ const products=[
 		id:9,
 		img:require("../../Assets/Images/ocb9.png"),
 		
-		price2:"200 Tl",
+		
 		description:"MILKY CREAM FILLED COMPOUND CHOCOLATE 10grx100picesx8 1800 CARTOON IN 40 HC CONTAINER",
 	},
 	{
 		id:10,
 		img:require("../../Assets/Images/ocb10.png"),
 		
-		price2:"200 Tl",
+		
 		description:"MILKY CREAM FILLED COMPOUND CHOCOLATE 10grx100picesx12 1750 CARTOON IN 40 HC CONTAINER",
 	},
 	{
 		id:11,
 		img:require("../../Assets/Images/ocb11.png"),
 		
-		price2:"200 Tl",
+		
 		description:"WAFER COATED WITH COCOA CREAM 45gr 24x6 2700 CARTOON IN 40 HC CONTAINER",
 		discount:"New"
 	},
 	{
 		id:12,
 		img:require("../../Assets/Images/ocb12.png"),
-		
-		price2:"200 Tl",
 		description:"WAFER COATED WITH WHITE CREAM 45gr 24x6 2700 CARTOON IN 40 HC CONTAINER",
 	},
 	{
 		id:13,
 		img:require("../../Assets/Images/ocb13.png"),
-		
-		price2:"200 Tl",
 		description:"COCOA CAKE WITH COCONUT 50gr 24x6 1650 CARTOON IN 40 HC CONTAINER",
 	},
+	{
+		id:14,
+		img:require("../../Assets/Images/ocb14.png"),
+		description:"SOFT CANDY CENTER FILLED FRUIT CHEWS 1kgx12 1650 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:15,
+		img:require("../../Assets/Images/ocb15.png"),
+		description:"HARD CANDY CENTER FILLED COFFEE FLAVORE 1kgx8 2200 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:16,
+		img:require("../../Assets/Images/ocb16.png"),
+		description:"HARD CANDY MILKY CARAMEL FILLED BONBON 1kgx8 2200 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:17,
+		img:require("../../Assets/Images/ocb17.png"),
+		description:"BISCUIT WITH MARSHMALLOW COATED BY COCOA 25gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
+	},
+	
+	{
+		id:19,
+		img:require("../../Assets/Images/ocb19.png"),
+		description:"COCOA COATED WAFER WITH HAZELNUT CREAM 30gr 24x6 2800 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:20,
+		img:require("../../Assets/Images/ocb20.png"),
+		description:"DREAM BISCUIT WITH COCOA CHOCOLATE 11gr 48x12 2850 CARTOON IN 40 HC CONTAINER",
+	},
+
 
 ]
 
