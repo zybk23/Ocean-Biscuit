@@ -16,13 +16,13 @@ const Footer2 = () => {
 				</p>
 				<div className="icons">
 					<a href="https://instagram.com/oceanbiskuvi?igshid=1k0lv5zk3f277" target="_blank">
-						<i class="fab fa-instagram"></i>
+						<i className="fab fa-instagram"/>
 					</a>	
 					<a href="https://twitter.com/biscuit_ocean?s=21" target="_blank">
-						<i class="fab fa-twitter"></i>
+						<i className="fab fa-twitter"/>
 					</a>
 					<a href="https://www.linkedin.com/in/muhammed-ammar-%C3%A7elenk-8061a1166/" target="_blank">
-						<i class="fab fa-linkedin-in"></i>
+						<i className="fab fa-linkedin-in"/>
 					</a>
 				</div>
 			</div>
@@ -41,7 +41,7 @@ const Footer2 = () => {
 				<div className="contactInfo">
 					<div className="box">
 						<div className="icon">
-						<i class="fas fa-map-marker-alt"></i>
+						<i className="fas fa-map-marker-alt"/>
 						</div>
 						<div className="text">
 							<h3>Address</h3>
@@ -50,7 +50,7 @@ const Footer2 = () => {
 					</div>
 					<div className="box">
 						<div className="icon">
-						<i class="fas fa-phone-volume"></i>
+						<i className="fas fa-phone-volume"/>
 						</div>
 						<div className="text">
 							<h3>Phone</h3>
@@ -60,7 +60,7 @@ const Footer2 = () => {
 					</div>
 					<div className="box">
 						<div className="icon">
-						<i class="far fa-envelope"></i>
+						<i className="far fa-envelope"/>
 						</div>
 						<div className="text">
 							<h3>E-Mail</h3>

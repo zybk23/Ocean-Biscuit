@@ -4,7 +4,7 @@ $green:#40c9a2;
 $light:rgba(255,255,255,.5);
 
 .tahaNew{
-	padding-top: 120px;
+	padding-top: 84px;
 
 	.product-collection{
 		display: flex;
@@ -26,7 +26,6 @@ $light:rgba(255,255,255,.5);
 		
 		.leftSide{
 			width: 50%;
-			border-radius: 12px;
 			height: 100%;
 			background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
 			display: flex;
@@ -45,6 +44,7 @@ $light:rgba(255,255,255,.5);
 			flex-direction: row;
 			align-items: center;
 			justify-content: center;
+			background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
 
 			@media screen and (max-width:978px) {
 				width: 70%;
@@ -58,7 +58,6 @@ $light:rgba(255,255,255,.5);
 				align-items: center;
 				border-radius: 12px;
 				justify-content: center;
-				background-color: #333;
 			}
 		}
 	}
@@ -127,8 +126,8 @@ $light:rgba(255,255,255,.5);
 	  /* product section */
 	  
 	  .products {
-		background: $alice;
 		padding: 3.2rem 0;
+		background: linear-gradient(rgba(#02357C, 0.993), rgba(50, 128, 218, 0.952));
 	  
 		.text-light {
 		  text-align: center;
@@ -140,7 +139,7 @@ $light:rgba(255,255,255,.5);
 	  .product {
 		margin: 2rem;
 		position: relative;
-		border: 1px solid $gray;
+		border: 1px solid rgba(#eea858,0.5);
 	  }
 	  .product-col-left {
 		background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("../../Assets/Images/deneme logo.png") (center / cover) no-repeat;
@@ -156,10 +155,10 @@ $light:rgba(255,255,255,.5);
 	  }
 	  
 	  .product-img {
-		background: $light;
-		box-shadow: 0 0 20px 10px $light;
+		background: transparent;
 		width: 200px;
 		height: 200px;
+		padding: 20px;
 		margin: 0 auto;
 		border-radius: 50%;
 		transition: background 0.5s ease;
@@ -225,7 +224,7 @@ $light:rgba(255,255,255,.5);
 	  }
 	  
 	  .product-info {
-		background: white;
+		background: rgba(40, 89, 179,0.3);
 		padding: 2rem;
 	  }
 	  
@@ -240,13 +239,12 @@ $light:rgba(255,255,255,.5);
 	  }
 	  
 	  .product-name {
-		color: black;
+		color: #fff;
 		display: block;
 		text-decoration: none;
 		text-align: center;
 		font-size: 1rem;
 		text-transform: uppercase;
-		font-weight: bold;
 	  }
 	  
 	  .product-price {

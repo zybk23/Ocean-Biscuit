@@ -32,21 +32,21 @@ class Home extends React.Component {
             <div className="home__section__info__icons">
               <div className="home__section__info__icons__side">
                 <div className="home__section__info__icon">
-                  <i class="fas fa-check-circle" />
+                  <i className="fas fa-check-circle" />
                   <p>Quality Product</p>
                 </div>
                 <div className="home__section__info__icon">
-                  <i class="fas fa-check-circle" />
+                  <i className="fas fa-check-circle" />
                   <p>Safe Production</p>
                 </div>
               </div>
               <div className="home__section__info__icons__side">
                 <div className="home__section__info__icon">
-                  <i class="fas fa-check-circle" />
+                  <i className="fas fa-check-circle" />
                   <p>Delicious Product</p>
                 </div>
                 <div className="home__section__info__icon">
-                  <i class="fas fa-check-circle" />
+                  <i className="fas fa-check-circle" />
                   <p>Rich Nutritional V.</p>
                 </div>
               </div>
