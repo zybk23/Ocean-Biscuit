@@ -150,7 +150,7 @@ const NewProduct = (props) => {
 								<div className= "product-img">
 									<img src = {item.img} alt = "product image"/>
 								</div>
-								<div className= "product-btns">
+								{/* <div className= "product-btns">
 									<a href="https://instagram.com/oceanbiskuvi?igshid=1k0lv5zk3f277" target="_blank">
 										<i className="fab fa-instagram"/>
 									</a>	
@@ -160,7 +160,7 @@ const NewProduct = (props) => {
 									<a href="https://www.linkedin.com/in/muhammed-ammar-%C3%A7elenk-8061a1166/" target="_blank">
 										<i className="fab fa-linkedin-in"/>
 									</a>
-								</div>
+								</div> */}
 							</div>
 
 							<div className= "product-info">

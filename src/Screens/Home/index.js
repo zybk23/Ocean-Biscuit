@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
-import bgbis from "../../Assets/Images/bgbis.png";
+import bgbis from "../../Assets/Images/ocb13.png";
 import services from "../../Assets/Images/services.png";
 import Swiper from "../../components/swiper/Swiper"
 import Footer2 from "../../components/Footer2/Footer2"
@@ -27,7 +27,7 @@ class Home extends React.Component {
               and Confectionary Industry has recorded remarkably rapid expansion
               and development due to its application of modern food processing
               techniques in all aspects of production...
-              <a href={"/about"}>Read More {">"} </a>
+              <a href={"/products"}>Read More {">"} </a>
             </p>
             <div className="home__section__info__icons">
               <div className="home__section__info__icons__side">

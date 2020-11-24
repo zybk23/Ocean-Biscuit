@@ -3,7 +3,7 @@ import React from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
-import sliderocean from "../../Assets/Images/sliderocean.png"
+import sliderocean from "../../Assets/Images/son.jpg"
 import img2 from "../../Assets/Images/img2.jpg"
 import img3 from "../../Assets/Images/img3.jpg"
 import img4 from "../../Assets/Images/img4.jpg"
@@ -36,16 +36,6 @@ export default () => {
 		  </div>
 		  
 	  </SwiperSlide>
-      <SwiperSlide className="swiper">
-		  <img src={img2} alt=""/>
-	  </SwiperSlide>
-	  <SwiperSlide className="swiper">
-		  <img src={img3} alt=""/>
-	  </SwiperSlide>
-	  <SwiperSlide className="swiper">
-		  <img src={img4} alt=""/>
-	  </SwiperSlide>
-      ...
     </Swiper>
   );
 };
