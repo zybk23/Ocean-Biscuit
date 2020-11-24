@@ -126,6 +126,27 @@ const products=[
 		img:require("../../Assets/Images/ocb20.png"),
 		description:"DREAM BISCUIT WITH COCOA CHOCOLATE 11gr 48x12 2850 CARTOON IN 40 HC CONTAINER",
 	},
+	{
+		id:21,
+		img:require("../../Assets/Images/sarı.png"),
+		description:"DREAM BISCUIT WITH COCOA CHOCOLATE 11gr 48x12 2850 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:22,
+		img:require("../../Assets/Images/sarı1.png"),
+		description:"CAKE FILLED WITH CARAMEL 40gr 24x6 1800 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:23,
+		img:require("../../Assets/Images/siyah.png"),
+		description:"CAKE FILLED WITH BANANA 40gr 24x6 1800 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:24,
+		img:require("../../Assets/Images/maxcoco.png"),
+		description:"CAKE FILLED WITH COCOA 40gr 24x6 1800 CARTOON IN 40 HC CONTAINER",
+	},
+	
 
 
 ]
@@ -134,14 +155,14 @@ const about=[
 	{
 		id:2,
 		smTitle:"Ocean Biscuit",
-		mdTitle:"OUR QUALİTY & SENSE",
+		mdTitle:"Our Quality & Sense",
 		dsc:"To produce with perfectionism principle by adapting changing economic conditions. To work with certain rules and principles in a systematic manner in order to contribute Turkish economy. To comply fully....",
 		btn:"Show More..."
 	},
 	{
 		id:3,
 		smTitle:"Ocean Biscuit",
-		mdTitle:"OUR MİSSİON & VİSİON",
+		mdTitle:"Our Mission & Vision",
 		dsc:"To become a future company which contributes positive values to the Turkish economy while growing constantly through our respects humanity, environment and life and future. To raise the standards through...",
 		btn:"Show More..."
 	},
