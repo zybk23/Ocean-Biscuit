@@ -10,7 +10,7 @@ const products=[
 		
 		
 		description:"COOKIES WITH COCOA CREAM FILLING 44gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
-		discount:"New"
+		
 	},
 	{
 		id:2,
@@ -25,7 +25,7 @@ const products=[
 		
 		
 		description:"COOKIES WITH COCOA CREAM FILLING 44gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
-		discount:"New"
+		
 	},
 	{
 		id:4,
@@ -47,13 +47,13 @@ const products=[
 		
 		
 		description:"BISCUITS WITH COCOA CREAM FILLING 100gr 24x6 1600 CARTOON IN 40 HC CONTAINER",
-		discount:"New"
+		
 	},
 	{
 		id:7,
 		img:require("../../Assets/Images/ocb7.png"),
 		description:"BISCUITS WITH COCOA CREAM FILLING 36gr 24x6 3600 CARTOON IN 40 HC CONTAINER",
-		discount:"New"
+		
 	},
 	{
 		id:8,
@@ -61,7 +61,7 @@ const products=[
 		
 		
 		description:"BISCUITS WITH COCOA DROPS 62gr 24x6 1700 CARTOON IN 40 HC CONTAINER",
-		discount:"New"
+		
 	},
 	{
 		id:9,
@@ -83,7 +83,7 @@ const products=[
 		
 		
 		description:"WAFER COATED WITH COCOA CREAM 45gr 24x6 2700 CARTOON IN 40 HC CONTAINER",
-		discount:"New"
+		
 	},
 	{
 		id:12,
