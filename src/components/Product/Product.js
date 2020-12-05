@@ -1,7 +1,6 @@
 import React from 'react';
 import "./styles.scss"
 import Footer from "../../components/Footer2/Footer2"
-import ocean from "../../Assets/Images/ocean.png"
 
 const products=[
 	{

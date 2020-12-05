@@ -13,10 +13,11 @@ $text-color: #333;
 	}
 
 	.home__section__info {
-		width: 100vw;
+		width: 95%;
 		height: 100vh;
 		display: flex;
 		flex-direction: row;
+
 
 		.home__section__info__text {
 			width: 55%;
@@ -42,8 +43,9 @@ $text-color: #333;
 
 			.long {
 				width: 90%;
-				letter-spacing: 1px;
-				line-height: 2;
+				letter-spacing: 0.4px;
+				line-height: 1.8;
+				font-family: 'Poppins', sans-serif;
 
 				a {
 					text-decoration: none;

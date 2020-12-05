@@ -20,6 +20,10 @@
 			height: 300px;
 			width: 40%;
 
+			@media screen and (max-width:1126px) {
+				padding-top: 60px;
+			}
+
 			p:nth-child(1){
 				font-size: 50px;
 				color: #61C1C5;

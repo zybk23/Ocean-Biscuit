@@ -38,7 +38,8 @@ $light:rgba(255,255,255,.5);
 			}
 
 			@media screen and (max-width:978px) {
-				width: 70%;
+				width: 80%;
+				padding: 12px 0;
 			}
 		}
 		.rightSide{
@@ -55,7 +56,9 @@ $light:rgba(255,255,255,.5);
 			}
 
 			@media screen and (max-width:978px) {
-				width: 70%;
+				width: 80%;
+				padding: 12px 0;
+				margin-top: 15px;
 			}
 			
 			.info1{
@@ -255,8 +258,9 @@ $light:rgba(255,255,255,.5);
 		display: block;
 		text-decoration: none;
 		text-align: center;
-		font-size: 1rem;
+		font-size: 14px;
 		text-transform: uppercase;
+		font-family: 'Poppins', sans-serif;
 	  }
 	  
 	  .product-price {
