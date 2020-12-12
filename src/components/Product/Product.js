@@ -75,20 +75,6 @@ const products=[
 		discount:"NEW"
 	}, 
 	{
-		id:9,
-		img:require("../../Assets/Images/ocb9.png"),
-		
-		
-		description:"MILKY CREAM FILLED COMPOUND CHOCOLATE 10grx100picesx8 1800 CARTOON IN 40 HC CONTAINER",
-	},
-	{
-		id:10,
-		img:require("../../Assets/Images/ocb10.png"),
-		
-		
-		description:"MILKY CREAM FILLED COMPOUND CHOCOLATE 10grx100picesx12 1750 CARTOON IN 40 HC CONTAINER",
-	},
-	{
 		id:11,
 		img:require("../../Assets/Images/ocb11.png"),
 		
@@ -101,16 +87,8 @@ const products=[
 		img:require("../../Assets/Images/ocb12.png"),
 		description:"WAFER COATED WITH WHITE CREAM 45gr 24x6 2700 CARTOON IN 40 HC CONTAINER",
 	},
-	{
-		id:13,
-		img:require("../../Assets/Images/ocb13.png"),
-		description:"COCOA CAKE WITH COCONUT 50gr 24x6 1650 CARTOON IN 40 HC CONTAINER",
-	},
-	{
-		id:17,
-		img:require("../../Assets/Images/ocb17.png"),
-		description:"BISCUIT WITH MARSHMALLOW COATED BY COCOA 25gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
-	},
+	
+	
 	
 	{
 		id:15,
@@ -136,11 +114,7 @@ const products=[
 		description:"SOFT CANDY CENTER FILLED FRUIT CHEWS 1kgx12 1650 CARTOON IN 40 HC CONTAINER",
 	},
 	
-	{
-		id:20,
-		img:require("../../Assets/Images/ocb20.png"),
-		description:"DREAM BISCUIT WITH COCOA CHOCOLATE 11gr 48x12 2850 CARTOON IN 40 HC CONTAINER",
-	},
+
 	{
 		id:21,
 		img:require("../../Assets/Images/sarı.png"),
@@ -155,6 +129,36 @@ const products=[
 		id:23,
 		img:require("../../Assets/Images/siyah.png"),
 		description:"CAKE FILLED WITH BANANA 40gr 24x6 1800 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:13,
+		img:require("../../Assets/Images/ocb13.png"),
+		description:"COCOA CAKE WITH COCONUT 50gr 24x6 1650 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:17,
+		img:require("../../Assets/Images/ocb17.png"),
+		description:"BISCUIT WITH MARSHMALLOW COATED BY COCOA 25gr 24x6 2850 CARTOON IN 40 HC CONTAINER",
+	},
+	
+	{
+		id:9,
+		img:require("../../Assets/Images/ocb9.png"),
+		
+		
+		description:"MILKY CREAM FILLED COMPOUND CHOCOLATE 10grx100picesx8 1800 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:10,
+		img:require("../../Assets/Images/ocb10.png"),
+		
+		
+		description:"MILKY CREAM FILLED COMPOUND CHOCOLATE 10grx100picesx12 1750 CARTOON IN 40 HC CONTAINER",
+	},
+	{
+		id:20,
+		img:require("../../Assets/Images/ocb20.png"),
+		description:"DREAM BISCUIT WITH COCOA CHOCOLATE 11gr 48x12 2850 CARTOON IN 40 HC CONTAINER",
 	},
 	{
 		id:24,
