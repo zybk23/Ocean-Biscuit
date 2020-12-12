@@ -69,11 +69,17 @@ const products=[
 		description:"COCOA COATED WAFER WITH HAZELNUT CREAM 30gr 24x6 2800 CARTOON IN 40 HC CONTAINER",
 	},
 	{
+		id:27,
+		img:require("../../Assets/Images/ocb21.png"),
+		description:"WAFER COATED WITH COCOA CHOCOLATE 65gr 24x6 1700 CARTOON IN 40 HC CONTAINER",
+	},
+	{
 		id:26,
 		img:require("../../Assets/Images/ocb23.png"),
 		description:"DUEX WAFAR CACAO COATED WİTH CACAO CREAM 30 GRX10 1900 CARTON IN 40 HC CONTAİNER",
 		discount:"NEW"
 	}, 
+	
 	{
 		id:11,
 		img:require("../../Assets/Images/ocb11.png"),
