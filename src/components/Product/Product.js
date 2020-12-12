@@ -102,12 +102,14 @@ const products=[
 	{
 		id:15,
 		img:require("../../Assets/Images/ocb15.png"),
-		description:"HARD CANDY CENTER FILLED COFFEE FLAVORE 1kgx8 2200 CARTOON IN 40 HC CONTAINER",
+		description:"HARD CANDY CENTER FILLED FRUIT FLAVORE 700grx10 2350 CARTOON IN 40 HC CONTAINER",
+		discount:"NEW"
 	},
 	{
 		id:16,
 		img:require("../../Assets/Images/ocb16.png"),
-		description:"HARD CANDY MILKY CARAMEL FILLED BONBON 1kgx8 2200 CARTOON IN 40 HC CONTAINER",
+		description:"HARD CANDY CENTER FILLED COFFEE FLAVORE 700grx10 2350 CARTOON IN 40 HC CONTAINER",
+		discount:"NEW"
 	},
 	{
 		id:17,
@@ -145,6 +147,19 @@ const products=[
 		img:require("../../Assets/Images/maxcoco.png"),
 		description:"CAKE FILLED WITH COCOA 40gr 24x6 1800 CARTOON IN 40 HC CONTAINER",
 	},
+	{
+		id:25,
+		img:require("../../Assets/Images/ocb22.png"),
+		description:"HARD CANDY CENTER FILLED MILK FLAVORE 700grx10 2350 CARTOON IN 40 HC CONTAINER",
+		discount:"NEW"
+	},
+	{
+		id:26,
+		img:require("../../Assets/Images/ocb23.png"),
+		description:"DUEX WAFAR CACAO COATED WİTH CACAO CREAM 30 GRX10 1900 CARTON IN 40 HC CONTAİNER",
+		discount:"NEW"
+	}, 
+
 	
 
 
