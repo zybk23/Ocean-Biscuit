@@ -94,15 +94,14 @@ const News = () => {
     <div className="blog-post">
       <Swiper
         className="blog-post-fair"
-        spaceBetween={50}
         slidesPerView={1}
         navigation
+        pagination={{ clickable: true }}
       >
         {Fairs.map((item) => (
           <SwiperSlide key={item.id} className="blog-post-fair-swiperSlide">
             <Swiper
               className="blog-post__img"
-              spaceBetween={50}
               slidesPerView={1}
               autoplay={{ delay: 2000 }}
               pagination={{ clickable: true }}
@@ -119,9 +118,9 @@ const News = () => {
               </div>
               <h1 className="blog-post__title">{item.name}</h1>
               <p className="blog-post__text">{item.description}</p>
-              <a href={item.target} className="blog-post__cta" target="_blank">
+              {/* <a href={item.target} className="blog-post__cta" target="_blank">
                 Read More
-              </a>
+              </a> */}
             </div>
           </SwiperSlide>
         ))}
