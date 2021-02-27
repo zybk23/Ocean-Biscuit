@@ -26,14 +26,25 @@ $font_size: 10px;
       }
 
       .blog-post__img {
-        width: 300px;
+        width: 400px;
         height: 300px;
         //   transform: translateX((20px));
         position: relative;
 
-        .blog_post-slide {
-          width: 350px;
+        @media screen and (max-width: 876px) {
+          width: 300px;
           height: 300px;
+        }
+
+        .blog_post-slide {
+          width: 400px;
+          height: 300px;
+
+          @media screen and (max-width: 876px) {
+            width: 300px;
+            height: 300px;
+          }
+
           img {
             width: 100%;
             height: 100%;
