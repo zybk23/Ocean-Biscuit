@@ -36,7 +36,7 @@ const products = [
     img: require("../../Assets/Images/ocb6.png"),
 
     description:
-      "BISCUITS WITH COCOA DROPS 62gr 24x6 1730 CARTOON IN 40 HC CONTAINER",
+      "BISCUITS WITH COCOA CREAM FILLING 100GR 24X6 1600 CARTOON IN 40 HC CONTAINER",
   },
   {
     id: 7,
@@ -124,7 +124,7 @@ const products = [
     id: 14,
     img: require("../../Assets/Images/ocb14.png"),
     description:
-      "SOFT CANDY CENTER FILLED FRUIT CHEWS 700grx12 2500 CARTOON IN 40 HC CONTAINER",
+      "SOFT CANDY CENTER FILLED FRUIT CHEWS 700grx10 2500 CARTOON IN 40 HC CONTAINER",
   },
   {
     id: 28,
