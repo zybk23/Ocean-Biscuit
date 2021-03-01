@@ -104,21 +104,18 @@ const products = [
     img: require("../../Assets/Images/ocb15.png"),
     description:
       "HARD CANDY CENTER FILLED FRUIT FLAVORE 700grx10 2500  CARTOON IN 40 HC CONTAINER",
-    discount: "NEW",
   },
   {
     id: 16,
     img: require("../../Assets/Images/ocb16.png"),
     description:
       "HARD CANDY CENTER FILLED COFFEE FLAVORE 700grx10 2500  CARTOON IN 40 HC CONTAINER",
-    discount: "NEW",
   },
   {
     id: 25,
     img: require("../../Assets/Images/ocb22.png"),
     description:
       "HARD CANDY CENTER FILLED MILK FLAVORE 700grx10 2500  CARTOON IN 40 HC CONTAINER",
-    discount: "NEW",
   },
   {
     id: 14,
@@ -132,7 +129,6 @@ const products = [
 
     description:
       "HARD CANDY CENTER FILLED COFFEE FLAVORE 1000grx8pvc 2200 CARTOON IN 40 HC CONTAINER",
-    discount: "NEW",
   },
   {
     id: 29,
@@ -140,7 +136,6 @@ const products = [
 
     description:
       "HARD CANDY CENTER FILLED MILK FLAVORE 1000grx8pvc 2200 CARTOON IN 40 HC CONTAINER",
-    discount: "NEW",
   },
   {
     id: 30,
@@ -148,7 +143,6 @@ const products = [
 
     description:
       "HARD CANDY CENTER FILLED FRUIT FLAVORE 1000grx8pvc 2200 CARTOON IN 40 HC CONTAINER",
-    discount: "NEW",
   },
 
   {
